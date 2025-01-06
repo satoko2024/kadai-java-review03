@@ -20,7 +20,7 @@ public class BaseBallTeam {
     }
     //勝率メソッド 勝ち数/(勝ち数+負け数)
     double getRate() {
-        double rate = ( this.win / (this.win + this.lose));
+        double rate = ( (double)this.win / (this.win + this.lose));
         return rate;
     }
 
